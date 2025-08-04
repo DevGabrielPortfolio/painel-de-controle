@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Painel de Controle</title>
+
+        <!-- importações JS -->
+        
+        <!-- <script src="./script-delegation.js" defer></script> -->
+        <!-- <script src="./script-direto.js" defer></script> -->
+        <!-- <script src="./script-foreach.js" defer></script> -->
+
+        <!-- importação CSS -->
+        
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        
+        <main class="painel-controle">
+
+            <h1>Status do Sistema</h1>
+
+            <div id="status-display" class="status-resetado">
+                
+                Sistema aguardando comando
+
+            </div><!--status-resetado-->
+
+            <div class="botoes-acao">
+
+                <button data-action="ativar">Ativar</button>
+
+                <button data-action="pausar">Pausar</button>
+
+                <button data-action="alerta">Alerta</button>
+
+                <button data-action="resetar">Resetar</button>
+            
+            </div><!--botoes-acao-->
+
+        </main><!--painel-controle-->
+        
+    </body>
+
+</html>
